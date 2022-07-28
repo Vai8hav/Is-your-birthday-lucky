@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --primary-color: rgb(255, 249, 127);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto 3rem auto;
+}
+
+#check {
+    margin: 1rem auto 2rem;
+    cursor: pointer;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border: 1px solid var(--primary-color);
+    font-size: medium;
+}
+
+#check:hover {
+    background-color: var(--primary-color) ;
+    color: black;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.258);
+    border: 2px solid black;
+    font-weight: 600;
+}
+
+.input-label {
+    font-weight: 600;
+    font-size: larger;
+    margin: 1rem;
+}
+
+input {
+    margin: auto;
+    background: transparent;
+    border: 2px solid black;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    width: 15vw;
+    font-size: large;
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+body {
+    background: radial-gradient( #ffffff, var(--primary-color));
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 40vw;
+    text-align: center;
+}
+
+#output {
+    margin: 1rem auto;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.privacy-notice {
+    width: 40vw;
+    margin: 0rem auto 2rem auto;
+
+}
+
+footer {
+    padding: 2rem;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    padding-inline-start: 0px;
+}
+
+.list-style {
+    list-style: none;
+    margin: auto;
+    width: 60%;
+    padding-inline-start: 0px;
+}
+
+.list-style-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
