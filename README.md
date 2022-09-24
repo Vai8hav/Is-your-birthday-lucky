@@ -1,4 +1,4 @@
-# Is-your-birthday-lucky-mark11 (test)
+# Is-your-birthday-lucky-mark11
 
 ## Problem Statement:
 Tell your friends if their birthdates are lucky or not.
